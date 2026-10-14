@@ -34,8 +34,10 @@ aws configure
 ## Results
 
 Local simulator:
-
+Local: Counter({'00': 1000})
 SV1 managed simulator:
+Task ARN: arn:aws:braket:us-east-1:100035083234:quantum-task/a161a4d9-16a5-4ea8-a475-1d7ff02a440c
+SV1: Counter({'00': 1000})
 
 ## Cost
 

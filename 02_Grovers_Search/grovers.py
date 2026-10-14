@@ -8,7 +8,7 @@ import math
 
 
 # Define a function called oracle(qc, n) that takes the circuit and num qubits
-def  oracle(qc, n):
+def oracle(qc, n):
     qc.x(range(n)) # apply X gates to qubits that should be 0 in the target state
     qc.cz(0,1)
     qc.x(range(n)) #reverse the X gates from step 1 (uncompute)
